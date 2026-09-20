@@ -1,12 +1,19 @@
-import solutions.TwoSums;
+import solutions.AddTwoNumbers.ListNode;
+import solutions.AddTwoNumbers.AddTwoNumbers;
 
-import java.util.Arrays;
 
 class Main
 {
     public static void main(String []args)
     {
-        int[] tab = {1,2,3,4};
-        System.out.println(Arrays.toString(TwoSums.twosums(tab,7)));
+
+       ListNode q = new ListNode(6);
+       ListNode w = new ListNode(5,new ListNode(6,new ListNode(4)));
+
+
+       AddTwoNumbers n = new AddTwoNumbers();
+
+
+       System.out.println(n.addTwoNumbers(q,w));
     }
 }
