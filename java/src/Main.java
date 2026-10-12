@@ -7,13 +7,13 @@ class Main
     public static void main(String []args)
     {
 
-       ListNode q = new ListNode(6);
-       ListNode w = new ListNode(5,new ListNode(6,new ListNode(4)));
+       ListNode q = new ListNode(2,new ListNode(4,new ListNode(9)));
+       ListNode w = new ListNode(5,new ListNode(6,new ListNode(4,new ListNode(9))));
 
 
        AddTwoNumbers n = new AddTwoNumbers();
 
 
-       System.out.println(n.addTwoNumbers(q,w));
+         System.out.println(n.addTwoNumbers(q,w));
     }
 }
