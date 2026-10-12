@@ -1,19 +1,20 @@
 import solutions.AddTwoNumbers.ListNode;
 import solutions.AddTwoNumbers.AddTwoNumbers;
+import solutions.LongestSubstringWoutRepeating.LongestSubstring;
 
 
 class Main
 {
     public static void main(String []args)
     {
+        String s = "1R1T7";
 
-       ListNode q = new ListNode(2,new ListNode(4,new ListNode(9)));
-       ListNode w = new ListNode(5,new ListNode(6,new ListNode(4,new ListNode(9))));
-
-
-       AddTwoNumbers n = new AddTwoNumbers();
+        //"1R1T7"
+        LongestSubstring a = new LongestSubstring();
 
 
-         System.out.println(n.addTwoNumbers(q,w));
+         System.out.println(a.lengthOfLongestSubstring(s));
+
+
     }
 }
